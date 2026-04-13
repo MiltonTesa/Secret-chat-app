@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Phantom Chat",
+    "slug": "phantom-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phantom.chat",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Unlock Phantom Chat"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0f"
+      },
+      "package": "com.phantom.chat"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}

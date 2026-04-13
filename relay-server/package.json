@@ -1,0 +1,12 @@
+{
+  "name": "phantom-relay-server",
+  "version": "1.0.0",
+  "description": "Lightweight relay server for Phantom Chat - sees only encrypted blobs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
